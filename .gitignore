@@ -1,0 +1,12 @@
+# Python bytes
+__pycache__/
+*.py[cod]
+*.class
+.pytest_cache/
+
+# Data and Models (Don't push huge files to GitHub)
+data/
+models/saved/
+
+# OS specific
+.DS_Store
