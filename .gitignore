@@ -1,16 +1,25 @@
-# Python bytes
+# Python
 __pycache__/
 *.py[cod]
 *.class
 .pytest_cache/
 
-# Data and Models (Don't push huge files to GitHub)
-data/
-models/saved/
+# Data files — ignore contents but keep folder structure
+data/raw/cicids2017/*
+data/raw/rba_dataset/*
+data/raw/loghub_ssh/*
+data/raw/paysim/*
+data/processed/*
+data/features/*
 
-# OS specific
-.DS_Store
-venv/
+# But never ignore gitkeep files
+!**/.gitkeep
+
+# Models
+models/saved/
 
 # Virtual environment
 venv/
+
+# OS
+.DS_Store
