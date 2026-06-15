@@ -10,3 +10,4 @@ models/saved/
 
 # OS specific
 .DS_Store
+venv/
